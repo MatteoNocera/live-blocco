@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.city {
+    border: 3px solid;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay {
+    height: 100%;
+    background-color: #0000007a;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-shadow: 4px 4px black;
+}
+
+.city:hover h2 {
+    text-shadow: none;
+}
+
+#roma {
+    background-image: url(/assets/img/roma.jpg);
+    
+}
+
+#napoli {
+    background-image: url(/assets/img/napoli.jpg);
+}
+
+#milano {
+    background-image: url(/assets/img/milano.jpg);
+}
